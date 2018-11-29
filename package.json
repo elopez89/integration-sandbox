@@ -1,0 +1,24 @@
+{
+  "name": "integration-sandbox",
+  "version": "3.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bump:release-version": "bump-tag-version major",
+    "bump:hotfix-version": "bump-tag-version patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elopez89/integration-sandbox.git"
+  },
+  "author": "Eddie Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elopez89/integration-sandbox/issues"
+  },
+  "homepage": "https://github.com/elopez89/integration-sandbox#readme",
+  "dependencies": {
+    "bump-tag-version": "1.0.2"
+  }
+}
